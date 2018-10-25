@@ -1,0 +1,291 @@
+body {
+  background-color: #eaeaea;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  border: 3px solid;
+  background: black;
+}
+#wrap {
+  position: relative;
+}
+#square-center {
+  position: absolute;
+  left: 300px;
+  top: 250px;
+  border-color: black;
+}
+#square-up {
+  position: absolute;
+  left: 300px;
+  top: 48px;
+  border-bottom: none;
+}
+#square-left {
+  position: absolute;
+  left: 98px;
+  top: 250px;
+  border-right: none;
+}
+#square-right {
+  position: absolute;
+  left: 500px;
+  top: 250px;
+  border-left: none;
+}
+#square-bottom {
+  position: absolute;
+  left: 300px;
+  top: 450px;
+  border-top: none;
+}
+.heart {
+  background-color: red;
+  height: 90px;
+  transform: rotate(-45deg);
+  width: 90px;
+  position: absolute;
+  left: 900px;
+  top: 325px;
+}
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 60%;
+  height: 90px;
+  position: absolute;
+  width: 90px;
+}
+.heart:before {
+  top: -45px;
+  left: 0;
+}
+.heart:after {
+  top: 0px;
+  right: -45px;
+}
+.horizontal-long {
+  width: 50px;
+  border: 3px solid;
+  border-color: red;
+  border-radius: 5px;
+  background-color: red;
+}
+.oblic-smal {
+  border: 3px solid red;
+  background-color: red;
+  width: 24px;
+  border-radius: 5px;
+}
+.horizontal-small {
+  width: 25px;
+  border: 3px solid;
+  border-color: red;
+  border-radius: 5px;
+  background-color: red;
+}
+#horizontal-long1 {
+  position: absolute;
+  left: 98px;
+  top: 360px;
+}
+#oblic-small1 {
+  position: absolute;
+  left: 146px;
+  top: 349px;
+  transform: rotate(-50deg);
+}
+#bulb1 {
+  position: absolute;
+  left: 159.5px;
+  top: 335.6px;
+  border-radius: 25px;
+  border-top: 8px solid red;
+  padding: 20px;
+  width: 2px;
+}
+#oblic-small2 {
+  position: absolute;
+  left: 187px;
+  top: 350.5px;
+  transform: rotate(50deg);
+}
+#horizontal-small1 {
+  position: absolute;
+  left: 208px;
+  top: 360px;
+}
+#oblic-small3 {
+  position: absolute;
+  left: 228px;
+  top: 372px;
+  transform: rotate(65deg);
+}
+#oblic-long1 {
+  width: 120px;
+  border: 3px solid;
+  border-color: red;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  left: 196px;
+  top: 324px;
+  transform: rotate(-80deg);
+}
+#oblic-long2 {
+  width: 170px;
+  border: 3px solid;
+  border-color: red;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  left: 190px;
+  top: 350px;
+  transform: rotate(85deg);
+}
+#oblic-long3 {
+  width: 75px;
+  border: 3px solid;
+  border-color: red;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  left: 249px;
+  top: 398px;
+  transform: rotate(-85deg);
+}
+#horizontal-small2 {
+  position: absolute;
+  left: 290px;
+  top: 360px;
+}
+#oblic-small4 {
+  width: 15px;
+  position: absolute;
+  left: 315px;
+  top: 355px;
+  transform: rotate(-40deg);
+}
+#bulb2 {
+  position: absolute;
+  left: 325px;
+  top: 344px;
+  border-radius: 25px;
+  border-top: 8px solid red;
+  padding: 20px;
+  width: 2px;
+}
+#oblic-small5 {
+  width: 15px;
+  position: absolute;
+  left: 354px;
+  top: 355px;
+  transform: rotate(50deg);
+}
+#horizontal-long2 {
+  width: 100px;
+  position: absolute;
+  left: 366px;
+  top: 360px;
+}
+#oblic-small6 {
+  position: absolute;
+  left: 465px;
+  top: 349px;
+  transform: rotate(-50deg);
+}
+#bulb3 {
+  position: absolute;
+  left: 478.5px;
+  top: 335.6px;
+  border-radius: 25px;
+  border-top: 8px solid red;
+  padding: 20px;
+  width: 2px;
+}
+#oblic-small7 {
+  position: absolute;
+  left: 506px;
+  top: 350.5px;
+  transform: rotate(50deg);
+}
+#horizontal-small3 {
+  position: absolute;
+  left: 527px;
+  top: 360px;
+}
+#oblic-small8 {
+  position: absolute;
+  left: 547px;
+  top: 372px;
+  transform: rotate(65deg);
+}
+#oblic-long4 {
+  width: 120px;
+  border: 3px solid;
+  border-color: red;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  left: 515px;
+  top: 324px;
+  transform: rotate(-80deg);
+}
+#oblic-long5 {
+  width: 170px;
+  border: 3px solid;
+  border-color: red;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  left: 509px;
+  top: 350px;
+  transform: rotate(85deg);
+}
+#oblic-long6 {
+  width: 75px;
+  border: 3px solid;
+  border-color: red;
+  border-radius: 5px;
+  background-color: red;
+  position: absolute;
+  left: 568px;
+  top: 398px;
+  transform: rotate(-85deg);
+}
+#horizontal-small4 {
+  position: absolute;
+  left: 609px;
+  top: 360px;
+}
+#oblic-small9 {
+  width: 15px;
+  position: absolute;
+  left: 634px;
+  top: 355px;
+  transform: rotate(-40deg);
+}
+#bulb4 {
+  position: absolute;
+  left: 644px;
+  top: 344px;
+  border-radius: 25px;
+  border-top: 8px solid red;
+  padding: 20px;
+  width: 2px;
+}
+#oblic-small10 {
+  width: 15px;
+  position: absolute;
+  left: 673px;
+  top: 355px;
+  transform: rotate(50deg);
+}
+#horizontal-long3 {
+  width: 250px;
+  position: absolute;
+  left: 685px;
+  top: 360px;
+}
